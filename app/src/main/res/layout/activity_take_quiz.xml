@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TakeQuizActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lecture_name_txt"
+        android:textSize="20dp"
+        android:gravity="end"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quiz List"
+        android:textSize="40dp"
+        android:gravity="center"/>
+
+
+    <ListView
+        android:id="@+id/listview_quiz"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:divider="#ffcc22"
+        android:dividerHeight="1.5dp"
+        android:choiceMode="singleChoice"
+        android:layout_weight="1"
+        />
+
+</LinearLayout>
